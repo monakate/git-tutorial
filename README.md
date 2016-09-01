@@ -14,7 +14,7 @@
 
   In your terminal, just type `ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts`.
 
-## Git Configurations ##
+## Setup Git Configurations ##
 1. Setting username and password
 
   Make sure that you configure you git username and password before working on any project. You can accomplish this by doing the following:
@@ -36,3 +36,17 @@
   - `git config --global core.editor "<editor-name> -w"`
 
   Note: Known editors are subl, atom, emacs, gedit
+
+  ## Activity ##
+
+  General Instruction: Find a partner. Assign person A and person B then follow the instructions given below. Use your knowledge in git to complete the activity. Also follow the known git conventions/practices discussed in class.
+
+  1. Setting up for collaboration
+
+    - Person A: Go to (https://github.com/CjayBillones/git-tutorial) and for the repository. After that, go to your own forked repository that can be found at `https://github.com/<Person A's username>/git-tutorial`.
+    - Person A: Go to the settings of your own forked repository and add Person B as a collaborator of your forked project.
+    - Person B: Go to your email and accept that invitation to collaborate.
+    - Person A & B: Clone the project via SSH. You can find the link for ssh by clicking the `clone or download` button. Once you've got the link, clone it in your local machines using the terminal.
+    - Person A: Run `git fetch --all`
+    - Person B: Open the `pairs.txt` file and follow the instructions given there. After doing so, commit your changes and push it to the master branch. Fix any conflict that you might encounter.
+    - Person A: Go to the original project (https://github.com/CjayBillones/git-tutorial)and send a `New Pull Request` to sync your repository's master branch with the owner's master branch.
