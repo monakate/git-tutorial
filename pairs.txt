@@ -1,4 +1,6 @@
 =========================================
+                  FORMAT
+=========================================
 
 Write your names and follow the format:
 
@@ -9,4 +11,8 @@ Write your names and follow the format:
 <Pair 2: PERSON B FULLNAME>
 
 (Do not delete this part  )
+=========================================
+  CS 173 - 2nd Semester A.Y. 2016-2017
+  Department of Computer Science
+  University of the Philippines Diliman
 =========================================
