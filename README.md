@@ -13,3 +13,26 @@
 3. Adding Github in list of authorized hosts.
 
   In your terminal, just type `ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts`.
+
+## Git Configurations ##
+1. Setting username and password
+
+  Make sure that you configure you git username and password before working on any project. You can accomplish this by doing the following:
+
+  - `git config --global user.name "Your Name"`
+  - `git config --global user.email "user@example.com"`
+
+2. Setting up git over proxy connection
+
+  If you're using a connection with proxy, aside from configuring your machine's environment proxy, you also have to setup your git's proxy by doing the following:
+
+  - `git config --global http.proxy http://<proxy>:<port>`
+  - `git config --global https.proxy https://<proxy>:<port>`
+
+3. Changing you default editor (optional)
+
+  If you want to modify the editor that git uses for commit messages, you can change the default editor by doing the following:
+
+  - `git config --global core.editor "<editor-name> -w"`
+
+  Note: Known editors are subl, atom, emacs, gedit
