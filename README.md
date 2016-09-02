@@ -49,4 +49,13 @@ General Instruction: Find a partner. Assign person A and person B then follow th
   - Person A & B: Clone the project via SSH. You can find the link for ssh by clicking the `clone or download` button. Once you've got the link, clone it in your local machines using the terminal.
   - Person A: Run `git fetch --all`
   - Person B: Open the `pairs.txt` file and follow the instructions given there. After doing so, commit your changes and push it to the master branch. Fix any conflict that you might encounter.
-  - Person A: Go to the original project (https://github.com/CjayBillones/git-tutorial)and send a `New Pull Request` to sync your repository's master branch with the owner's master branch.
+  - Person A: Go to the original project (https://github.com/CjayBillones/git-tutorial) and send a `New Pull Request` to sync your repository's master branch with the owner's master branch.
+
+2. Practicing git through hands-on experience
+  
+  - Person A: Setup the HTML structure on all the HTML files. Commit then push your changes.
+  - Person B: Do the same thing but aside from setting up the HTML structure on all the HTML files, add a title in each file that corresponds to the filename (i.e. For the index.html, title should be "Git Activity" for the others, it should be "About | Git Activity", etc.). Commit then push your changes.
+  - From here on out, divide the tasks with your partner. The goal is to add contents in all the html files. However, you and your partner should both make changes in all the html files. If you eencounter conflicts, try to fix it on your own but if you're lost, you can ask your instructor for assistance.
+  - If you've decided to create different branches while working, make sure to also push the branches that you've created. You can do this by entering the command: git push origin <branch-name>.
+  - Once you've finished all changes you want to make, make sure that all branches are merged to the master branch.
+  
